@@ -1,6 +1,7 @@
 @media screen and (max-width: 80rem) {
     body{
         width: 100%;
+        display: block;
     }
     nav ul li a {
         color: #fff;
