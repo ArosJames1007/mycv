@@ -1,4 +1,7 @@
 @media screen and (max-width: 80rem) {
+    body{
+        width: 100%;
+    }
     nav ul li a {
         color: #fff;
         font-size: 9px;
