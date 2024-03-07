@@ -1,0 +1,177 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: #1e272e;
+}
+nav{
+    width: 100%;
+    display: inline; 
+    background-color:#1e272e; ;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    display: inline; 
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 10px;
+
+}
+
+li a:hover{
+    background-color: #fff;
+    color: #1e272e;
+    border-radius: 16px;
+}
+#logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.group-1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #282a36;
+    align-content: center;
+}
+.container, .container-1{
+    max-width: 100%;
+    height: 600px;
+    background-color:#282a36;
+  
+}
+.container #text{
+    color: #fff;
+    font-size: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#social-media{
+    color: #fff;
+    margin-bottom: 75px;
+}
+#social-media a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+#social-media a:hover{
+    color: #DAA520;
+}
+#contact-btn, .download-cv a{
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+    font-size:30px;
+    border: 5px solid #fff;
+}
+
+#contact-btn:hover, .download-cv a:hover{
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+}
+.container-1{
+    width: 30%;
+}
+.container-1-copy{
+    display: none;
+}
+
+.container-1 #text-1{
+    color: #fff;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.container-1 #description{
+    color: #fff;   
+}
+
+.group-2 h1, .group-3 h1,.group-4 h1{
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.group-2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.group-2 ul li {
+    text-decoration: none;
+    color: #fff;
+}
+.group-2 ul li p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.group-3{
+    text-align: center;
+    padding: 100px;
+}
+.group-3 p{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.group-3 p:hover{
+    color: #DAA520;
+}
+.group-3 img{
+    width: 100%;
+    height:400px;   
+}
+.group-4 ul {
+    color: white;
+    list-style: none;
+    font-size: 18px;
+}
+.group-4 ul  li{
+    padding: 5px;
+}
+.group-4 a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.group-4{
+    display: flex;
+    justify-content: space-around;
+}
+#exp{
+    text-align: center;
+    color: white;
+}
+
+.download-cv{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+

@@ -1,0 +1,78 @@
+@media screen and (max-width: 80rem) {
+    nav ul li a {
+        color: #fff;
+        font-size: 9px;
+        padding: 5px;
+    }
+    #logo a{
+        color: #fff;
+        font-size: 9px;
+        margin-left: 10px;
+    }
+    .group-1{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .container{
+        height: fit-content;
+        width: 50%;
+    }
+    .container #text{
+        font-size: 50px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #social-media{
+        margin-bottom: 50px;
+    }
+    #contact-btn, .download-cv a{
+        padding: 10px;
+        font-size: 15px;
+        border-width: 2.5px;
+    }
+    .image-avatar{
+        width: 50%;
+    }
+    .image-avatar img{
+        width: 100%;
+    }
+    #social-media a{
+        font-size: 10px;
+    }
+    .container-1{
+      display: none;
+    }
+    .container-1-copy{
+        display: contents;
+        color: #fff;
+    }
+    .container-1-copy #text-1-copy{
+        text-align:  center;
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    .group-2 h1, .group-3 h1,.group-4 h1{
+        margin: 5px;
+    }
+    .group-2 ul li {
+        text-decoration: none;
+        color: #fff;
+    }
+ 
+    .group-2 ul{
+        display: unset;
+    }
+    .group-2 img{
+        width: 50px;
+    }
+    .group-4{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .group-4 img{
+        width: 100%;
+    }
+}
